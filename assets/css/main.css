@@ -3456,7 +3456,7 @@ input, select, textarea {
 
 			#banner {
 				background-repeat: no-repeat;
-			/* 3	background-image: url("../../images/redabstractbackground.jpg"); */
+				background-image: url("../../images/redabstractbackground.jpg");
 				background-size: cover;
 				background-position: center;
 				margin-bottom: -6.5em;
