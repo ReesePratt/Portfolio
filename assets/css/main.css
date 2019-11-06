@@ -94,7 +94,7 @@ input, select, textarea {
 
 	body {
 		background-repeat: no-repeat;
-		background-image: url("../../images/redabstractbackground.jpg");
+	/*	background-image: url("../../images/redabstractbackground.jpg"); */
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
