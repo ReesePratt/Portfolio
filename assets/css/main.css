@@ -94,7 +94,7 @@ input, select, textarea {
 
 	body {
 		background-repeat: no-repeat;
-	/*	background-image: url("../../images/redabstractbackground.jpg"); */
+	/*  1	background-image: url("../../images/redabstractbackground.jpg"); */
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -3456,7 +3456,7 @@ input, select, textarea {
 
 			#banner {
 				background-repeat: no-repeat;
-				background-image: url("../../images/redabstractbackground.jpg");
+			/* 3	background-image: url("../../images/redabstractbackground.jpg"); */
 				background-size: cover;
 				background-position: center;
 				margin-bottom: -6.5em;
@@ -3566,7 +3566,7 @@ input, select, textarea {
 		#wrapper > header {
 			background-repeat: no-repeat;
 			padding: 9em 0 6.25em 0 ;
-		/*	background-image: url("../../images/redabstractbackground.jpg"); */
+		/* 2	background-image: url("../../images/redabstractbackground.jpg"); */
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -4054,7 +4054,7 @@ input, select, textarea {
 
 		#footer {
 			background-repeat: no-repeat;
-			background-image: url("../../images/redabstractbackground.jpg");
+		/* 4	background-image: url("../../images/redabstractbackground.jpg"); */
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
