@@ -269,7 +269,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 0.9em;
+		font-size: 1.2em;
 	}
 
 	h4 {
@@ -744,7 +744,7 @@ input, select, textarea {
 
 	ul.contact {
 		list-style: none;
-		padding: 1;
+		padding: 2;
 	}
 
 		ul.contact li {
