@@ -92,12 +92,12 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-	    background-image: url("images/nBackGround01.jpg");
-		background-image: stretch;
-		background-attachment: fixed, fixed;
-		background-position: center, center;
-	}
+body {
+    background-image: url("\images\nBackGround01.jpg");
+    background-image: stretch;
+    background-attachment: fixed, fixed;
+    background-position: center, center;
+}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
