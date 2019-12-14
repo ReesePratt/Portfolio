@@ -93,7 +93,7 @@ input, select, textarea {
 	}
 
 	body {
-	  background-image: url("Portfolio/images/nBackGround01.jpg");
+	    background-image: url("images/nBackGround01.jpg");
 		background-image: stretch;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
