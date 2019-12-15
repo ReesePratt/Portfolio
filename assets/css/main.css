@@ -753,7 +753,7 @@ ul.contact {
         position: relative;
         bottom: 40px;
         float: left;
-        left: 36%;
+        left: 30%;
     }
 
         ul.contact li:before {
@@ -1631,9 +1631,10 @@ ul.contact {
 
 		@media screen and (max-width: 736px) {
 
-			.wrapper {
-				margin: 0 0 0 0;
-			}
+            .wrapper {
+                margin: 0 0 0 0;
+                padding: 2% 4% 2%
+            }
 
 				.wrapper:before, .wrapper:after {
 					height: 0;
@@ -1649,7 +1650,8 @@ ul.contact {
 				}
 
 				.wrapper .inner {
-					padding: 1em 0 0 0;
+					padding: 0 0 0 0;
+
 				}
 
 				.wrapper.spotlight .inner {
@@ -1668,28 +1670,6 @@ ul.contact {
 					margin: 0 0 0 0;
 				}
 
-		}
-
-		@media screen and (max-width: 480px) {
-
-
-			.wrapper.spotlight .inner {
-				display: block;
-			}
-
-			.wrapper.spotlight .image {
-				margin: 0 0 1em 0 !important;
-				max-width: 85%;
-				width: 0;
-			}
-
-		}
-
-		@media screen and (max-width: 360px) {
-
-			.wrapper .inner {
-				padding: 0 0 0 0;
-			}
 		}
 
 /* Footer */
@@ -1813,25 +1793,3 @@ ul.contact {
 
 	}
 
-	@media screen and (max-width: 480px) {
-
-		#footer .inner .copyright li {
-			border-left: 0;
-			display: block;
-			margin: 1em 0 0 0;
-			padding-left: 0;
-		}
-
-			#footer .inner .copyright li:first-child {
-				margin-top: 0;
-			}
-
-	}
-
-	@media screen and (max-width: 360px) {
-
-		#footer .inner {
-			padding: 2em 1.5em 0.1em 1.5em ;
-		}
-
-	}
