@@ -747,13 +747,10 @@ ul.contact {
 }
 
     ul.contact li {
-        text-decoration: none;
-        margin: 2.0em 0 0 2.25em;
-        padding: 0 0 0 2.25em;
         position: relative;
-        bottom: 40px;
+        bottom: 25px;
         float: left;
-        left: 30%;
+        right: -43%;
     }
 
         ul.contact li:before {
@@ -776,11 +773,9 @@ ul.contact {
             font-size: 0.8em;
             height: 2.5em;
             width: 2.5em;
-            left: 0;
             line-height: 2.35em;
             position: absolute;
             text-align: center;
-            top: 0;
             position: relative;
         }
 
@@ -805,12 +800,10 @@ ul.contact {
 	ul.pagination {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
 	}
 
 		ul.pagination li {
 			display: inline-block;
-			padding-left: 0;
 			vertical-align: middle;
 		}
 
@@ -999,18 +992,6 @@ ul.contact {
 			opacity: 0.25;
 		}
 
-		@media screen and (max-width: 480px) {
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button {
-				padding: 0;
-			}
-
-		}
-
 /* Features */
 
 	.features {
@@ -1074,19 +1055,6 @@ ul.contact {
 					margin-left: -1.5em;
 					margin-top: -1.5em;
 					width: calc(100% + 3em);
-				}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			.features {
-				display: block;
-			}
-
-				.features article {
-					width: 100%;
-					margin: 0 0 2em 0 !important;
 				}
 
 		}
@@ -1719,9 +1687,6 @@ ul.contact {
 				display: inline-block;
 				font-size: 0.9em;
 				line-height: 1;
-				margin-left: 1em;
-				padding: 0;
-				padding-left: 1em;
 			}
 
 				#footer .inner .copyright li:first-child {
@@ -1769,7 +1734,6 @@ ul.contact {
 				#footer .inner .copyright {
 					margin: 4em 0 2em 0;
 				}
-
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1780,15 +1744,15 @@ ul.contact {
 		}
 
 			#footer .inner {
-				padding: 2em 2em 0.1em 2em ;
+				padding: 0 0 0 0;
 			}
 
 				#footer .inner form {
-					margin: 0 0 3em 0;
+					margin: 0 0 0 0;
 				}
 
 				#footer .inner .contact {
-					margin: 0 0 3em 0;
+					margin: 0 0 0 0;
 				}
 
 	}
